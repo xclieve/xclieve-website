@@ -692,6 +692,56 @@ img {
     font-family: 'JetBrains Mono', monospace;
 }
 
+.dev-progress {
+    margin-top: 20px;
+    padding: 16px;
+    background: rgba(99, 102, 241, 0.05);
+    border-radius: 12px;
+    border: 1px solid rgba(99, 102, 241, 0.1);
+}
+
+.progress-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.progress-item.done {
+    color: var(--text-primary);
+}
+
+.progress-check {
+    width: 18px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.progress-item.done .progress-check {
+    color: #22c55e;
+}
+
+.github-link {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 10px 16px;
+    background: rgba(99, 102, 241, 0.1);
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    border-radius: 8px;
+    color: var(--aegis-color);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.github-link:hover {
+    background: rgba(99, 102, 241, 0.2);
+    border-color: var(--aegis-color);
+}
+
 .token-status .status-dot {
     width: 8px;
     height: 8px;
