@@ -234,6 +234,20 @@ img {
     border-color: var(--accent-primary);
 }
 
+.nav-cta-app {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, var(--accent-primary) 0%, #9333ea 100%);
+    border: none;
+    border-radius: 8px;
+    color: white !important;
+    font-weight: 600;
+}
+
+.nav-cta-app:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+}
+
 .mobile-menu-btn {
     display: none;
     flex-direction: column;
